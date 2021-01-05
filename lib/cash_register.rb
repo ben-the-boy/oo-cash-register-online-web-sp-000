@@ -44,7 +44,4 @@ class CashRegister
     @total = self.total - @price
   end 
   
-    
-
-  
 end
