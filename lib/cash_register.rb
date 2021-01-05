@@ -9,6 +9,7 @@ class CashRegister
   end 
   
   def add_item(item, price, quantity = nil)
+    
     if quantity == nil 
       @total = self.total + price
       @items << item 
@@ -34,6 +35,9 @@ class CashRegister
     @items.flatten
   end
   
+  def void_last_transaction
+    
+  end 
   
     
 
